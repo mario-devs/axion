@@ -1,0 +1,80 @@
+# Entorno local
+venv/
+.venv/
+.env
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Modelos / cachés de HuggingFace
+.cache/
+huggingface/
+
+# Frontend
+node_modules/
+dist/
+
+# Logs
+*.log
+
+# Artefactos comprimidos
+*.zip
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.lof
+*.lot
+*.lol
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+missfont.log
+
+# Material de la memoria que no se publica:
+# guías de la UPV (material de terceros), copias de la memoria,
+# grabaciones de la defensa y PDFs renderizados.
+docs/guidelines/
+docs/rendered/
+docs/examples/
+overleaf_project/
+DEFENSA_FINAL_AXION/
+build_main.py
+*.pptx
+*.mov
+TFG*.pdf
+slides_defensa.*
+Seminario*.pdf
+
+# Herramientas locales de IA
+GEMINI.md
+.claude/settings.local.json
+
+# Borradores previos de la memoria y material de preparación de la defensa.
+# Se publica solo la versión final (main_FINAL).
+docs/thesis_memory/main.pdf
+docs/thesis_memory/main.tex
+docs/thesis_memory/main_definitivo.pdf
+docs/thesis_memory/main_definitivo.tex
+docs/thesis_memory/DEFENSE_HANDBOOK.pdf
+docs/thesis_memory/DEFENSE_HANDBOOK.tex
+docs/thesis_memory/GUION_DEFENSA.md
+
+# Documentación de la memoria, notas de investigación y material auxiliar.
+# Se queda en local: el repositorio publica solo el código.
+docs/
+CLAUDE.md
+.claude/
+launch.sh
+setup_axion.sh
+backend/tests/integration/
+backend/tests/security/audit_report.json

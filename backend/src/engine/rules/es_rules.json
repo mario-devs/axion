@@ -1,0 +1,6 @@
+{
+  "SENSITIVE_VERBS": ["vivir", "residir", "quedar", "trabajar", "emplear", "pagar", "ganar", "gastar", "tener", "pertenecer", "habitar", "domiciliar", "llamarse"],
+  "SENSITIVE_PRONOUNS": ["yo", "mi", "mis", "mío", "míos", "mía", "mías", "nosotros", "nosotras", "nuestro", "nuestros", "nuestra", "nuestras", "me", "nos"],
+  "UTILITY_VERBS": ["buscar", "encontrar", "conseguir", "mostrar", "decir", "listar", "mapear", "ruta", "clima", "tiempo", "informacion", "calcular", "que", "donde", "como", "cual"],
+  "SENSITIVE_TRIGGERS": ["direccion", "salario", "sueldo", "residencia", "casa", "trabajo", "empleador", "banco", "cuenta", "contraseña", "dni", "pasaporte", "identificacion"]
+}

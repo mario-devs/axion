@@ -1,0 +1,18 @@
+{
+  "SENSITIVE_VERBS": ["live", "reside", "stay", "work", "employ", "pay", "earn", "spend", "own", "belong", "be"],
+  "SENSITIVE_PRONOUNS": ["i", "my", "me", "our", "mine", "us", "we"],
+  "UTILITY_VERBS": ["search", "find", "get", "show", "tell", "list", "map", "route", "weather", "info"],
+  "SENSITIVE_TRIGGERS": ["address", "salary", "wage", "residence", "home", "work", "employer", "bank", "account", "password", "passport", "identification", "ssn"],
+  "ALWAYS_MASK_TYPES": ["NAME", "EMAIL", "PHONE", "CREDIT_CARD", "IBAN", "DNI", "ID", "FRAGMENTED_ID", "ADDR"],
+  "CONTEXTUAL_TYPES": ["LOC", "ORG", "FIN", "DATE", "JOB", "INFO"],
+  "TAG_MAP": {
+    "PERSON": "NAME", "GIVENNAME": "NAME", "SURNAME": "NAME", "USER_NAME": "NAME",
+    "FIRST_NAME": "NAME", "LAST_NAME": "NAME", "USERNAME": "NAME",
+    "LOCATION": "LOC", "CITY": "LOC", "COUNTRY": "LOC", "STATE": "LOC", "COUNTY": "LOC",
+    "STREET_ADDRESS": "ADDR", "BUILDING_NUMBER": "ADDR", 
+    "PHONENUMBER": "PHONE", "PHONE_NUMBER": "PHONE", "TEL": "PHONE",
+    "CREDITCARD": "FIN", "IBAN": "FIN", "PRICE": "FIN", "AMOUNT": "FIN", "CURRENCY": "FIN",
+    "ORGANIZATION": "ORG", "COMPANY": "ORG", "COMPANY_NAME": "ORG", "JOBTITLE": "JOB",
+    "EDUCATION_LEVEL": "INFO"
+  }
+}

@@ -1,0 +1,21 @@
+fastapi==0.136.0
+uvicorn==0.45.0
+pydantic==2.13.3
+httpx==0.28.1
+python-dotenv==1.2.2
+
+spacy==3.8.16
+transformers==5.6.0
+torch==2.11.0
+pyspellchecker==0.9.0
+
+langchain-core==1.4.0
+langchain-openai==1.2.1
+langchain-google-genai==4.2.2
+
+# Modelos lingüísticos de spaCy. Van aquí para que un `pip install -r`
+# deje el motor SVO funcionando sin pasos extra.
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+es_core_news_sm @ https://github.com/explosion/spacy-models/releases/download/es_core_news_sm-3.8.0/es_core_news_sm-3.8.0-py3-none-any.whl
+
+pytest==9.0.3
